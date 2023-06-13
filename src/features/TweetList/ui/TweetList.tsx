@@ -16,7 +16,7 @@ function TweetListComponent({tweets}: ITweetListProps): ReactElement {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    dispatch(fetchUserTweets('jsmith'));
+    dispatch(fetchUserTweets('hengzeng'));
   }, [dispatch]);
 
   return (
