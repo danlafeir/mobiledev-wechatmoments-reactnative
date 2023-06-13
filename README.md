@@ -1,3 +1,7 @@
+## Before your interview
+
+Make sure you can execute either `npx react-native run-ios` or `npx react-native run-android` and see the app running in a simulator
+
 
 ## Installing dependencies
 
@@ -56,13 +60,18 @@ and all the necessary tools to build your iOS app.
 
 ### CocoaPods
 ```bash
-sudo gem install cocoapods
+  brew install cocoapods
 ```
 
-### Clone Repo
+### Install project-specific dependencies
 ```bash
-git clone https://github.com/techops-recsys-lateral-hiring/mobiledev-wechatmoments-reactnative.git
+  npm install
+  bundle
+  cd ios/ && pod install && cd ..  
 ```
+
+The simpler path for Android is to open the project in Android Studio. 
+
 
 ### App Introduction
 
